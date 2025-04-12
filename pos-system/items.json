@@ -1,0 +1,201 @@
+[
+    {
+        "id": 1,
+        "name": "Engine Oil",
+        "price": 800,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 2,
+        "name": "Tyre Replacement",
+        "price": 7500,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 3,
+        "name": "Clutch Replacement",
+        "price": 12000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 4,
+        "name": "Air Filter",
+        "price": 500,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 5,
+        "name": "Spark Plugs",
+        "price": 800,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 6,
+        "name": "Suspension Parts",
+        "price": 2500,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 7,
+        "name": "Brakepad Replacement",
+        "price": 2000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 9,
+        "name": "EV Motor",
+        "price": 4500,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 10,
+        "name": "Ev Battery",
+        "price": 3500,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 11,
+        "name": "EV Coolant",
+        "price": 2000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 12,
+        "name": "AWD Drivetrain",
+        "price": 12000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 13,
+        "name": "RWD Drivetrain",
+        "price": 10000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 14,
+        "name": "FWD Drivetrain",
+        "price": 10000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 16,
+        "name": "Slick Tyres",
+        "price": 23000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 17,
+        "name": "Semi Slick Tyres",
+        "price": 23000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 18,
+        "name": "Offroad Tyres",
+        "price": 23000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 19,
+        "name": "Ceramic Brakes",
+        "price": 52000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 20,
+        "name": "Drift Tuning Kit",
+        "price": 37000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 21,
+        "name": "Lighting Controller",
+        "price": 5000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 22,
+        "name": "Stancing Kit",
+        "price": 22000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 23,
+        "name": "Cosmetic Part",
+        "price": 3000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 24,
+        "name": "Respray Kit",
+        "price": 1800,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 25,
+        "name": "Vehicle Wheels",
+        "price": 10000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 26,
+        "name": "Tyre Smoke Kit",
+        "price": 4000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 27,
+        "name": "Bulletproof Tyres",
+        "price": 85000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 28,
+        "name": "Extras Kit",
+        "price": 3000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 29,
+        "name": "Nitrous Kit",
+        "price": 14000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 30,
+        "name": "NOS",
+        "price": 11000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 31,
+        "name": "Cleaning Kit",
+        "price": 500,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 32,
+        "name": "Repair Kit",
+        "price": 22000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 33,
+        "name": "Duck Tape",
+        "price": 400,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 34,
+        "name": "Performance Kit",
+        "price": 18000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    },
+    {
+        "id": 35,
+        "name": "Body Kit",
+        "price": 4000,
+        "image": "https://cdn.discordapp.com/attachments/1266265850172669974/1360467383629648144/Designer_2.jpg?ex=67fb397c&is=67f9e7fc&hm=59ac0184eb5fe630427224e91d351382805d42b43ad652b3e9e61594d6fb7c04&" 
+    }
+    
+]
