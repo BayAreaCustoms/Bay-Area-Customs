@@ -121,7 +121,7 @@ button.remove-btn {
     padding: 12px 24px; /* Smaller padding */
     width: auto; /* Adjust the width to fit the text */
     background-color: red; /* Keep the red background */
-    color: white; /* White text */
+    color: black; /* White text */
     border-radius: 4px; /* Optional: rounded corners for the button */
 }
 
