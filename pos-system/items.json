@@ -3,235 +3,235 @@
         "id": 1,
         "name": "Engine Oil",
         "price": 800,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 2,
         "name": "Tyre Replacement",
         "price": 7500,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 3,
         "name": "Clutch Replacement",
         "price": 12000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 4,
         "name": "Air Filter",
         "price": 500,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 5,
         "name": "Spark Plugs",
         "price": 800,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 6,
         "name": "Suspension Parts",
         "price": 2500,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 7,
         "name": "Brakepad Replacement",
         "price": 2000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 9,
         "name": "EV Motor",
         "price": 4500,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 10,
         "name": "Ev Battery",
         "price": 3500,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 11,
         "name": "EV Coolant",
         "price": 2000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 12,
         "name": "AWD Drivetrain",
         "price": 12000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 13,
         "name": "RWD Drivetrain",
         "price": 10000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 14,
         "name": "FWD Drivetrain",
         "price": 10000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 16,
         "name": "Slick Tyres",
         "price": 23000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 17,
         "name": "Semi Slick Tyres",
         "price": 23000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 18,
         "name": "Offroad Tyres",
         "price": 23000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 19,
         "name": "Ceramic Brakes",
         "price": 52000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 20,
         "name": "Drift Tuning Kit",
         "price": 37000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 21,
         "name": "Lighting Controller",
         "price": 5000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 22,
         "name": "Stancing Kit",
         "price": 22000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 23,
         "name": "Cosmetic Part",
         "price": 3000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 24,
         "name": "Respray Kit",
         "price": 1800,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 25,
         "name": "Vehicle Wheels",
         "price": 10000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 26,
         "name": "Tyre Smoke Kit",
         "price": 4000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 27,
         "name": "Bulletproof Tyres",
         "price": 85000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 28,
         "name": "Extras Kit",
         "price": 3000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 29,
         "name": "Nitrous Kit",
         "price": 14000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 30,
         "name": "NOS",
         "price": 11000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 31,
         "name": "Cleaning Kit",
         "price": 500,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 32,
         "name": "Repair Kit",
         "price": 22000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 33,
         "name": "Duck Tape",
         "price": 400,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 34,
         "name": "Performance Kit",
         "price": 18000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 35,
         "name": "Body Kit",
         "price": 4000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 36,
         "name": "Ferrari F12 V12 Engine Swap",
         "price": 115000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 37,
         "name": "Lambo SV V12 Engine Swap",
         "price": 115000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 38,
         "name": "LEO Tow",
         "price": 2000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 39,
         "name": "Paleto Tow",
         "price": 2200,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 40,
         "name": "Sandy/Grapeseed Tow",
         "price": 2500,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     },
     {
         "id": 41,
         "name": "City Tow",
         "price": 3000,
-        "image": "https://i.imghippo.com/files/CC8980HrY.png" 
+        "image": "images/CC8980HrY.png" 
     }
     
 ]
