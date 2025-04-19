@@ -1,8 +1,8 @@
-[
-    "BCSO",
-    "SASP",
-    "LSCSO",
-    "SAFR",
-    "USMS",
-    "Civillian"
-]
+const departments = [
+    { name: "BCSO", webhook: "https://ptb.discord.com/api/webhooks/1363230636382486719/geqHADWHrv070VwFfqDQSybM1kUhx62-wU9tpX-3-lfHKraJQp1HoCNs8IC56Y489NaB" },
+    { name: "SASP", webhook: "https://ptb.discord.com/api/webhooks/1363230749951787048/Yx1eNKGPVupqqsqLZDtTzEbI_mMikzpiGE9W3KUouIyyzxHYH0DJNLjxT7m6cSXp1XjE" },
+    { name: "LSCSO", webhook: "https://ptb.discord.com/api/webhooks/1363230331859243168/vhPP64zIi1933233SwQEwZhcdEd4jJpxKSMYJB3L06Z7sCOyqacDSMX-N1XsUVIGBoB6" },
+    { name: "SAFR", webhook: "https://ptb.discord.com/api/webhooks/1363230903719166276/4wbI12nlTkkaFR0O_wtctAi7O4wl6squmwEGwksW5PeNK3jpXBN0cUpnzc4Sgc-tJXvU" },
+    { name: "USMS", webhook: "https://ptb.discord.com/api/webhooks/1363231044425220126/zN2FeXjaKqLlLZimmtn3XXa_tU9qHjd6LteRToD0MIg3qT73CcAeG3zyVloLL-N9pcrr" },
+    { name: "Civillian", webhook: "https://ptb.discord.com/api/webhooks/1360469637028122710/3CKW10YRl16kDgIieIThBfkXVDXig0AzeiCWeBFyFMsofOzBen6HXhzGg_f996bZ0aBX" }
+];
