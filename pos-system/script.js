@@ -46,6 +46,7 @@ function loadItems() {
 
 
 
+
 function loadDepartments() {
   const select = document.getElementById('department');
   departments.forEach(dept => {
