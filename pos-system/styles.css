@@ -30,35 +30,37 @@ main {
 
 .item-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   gap: 10px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .item-grid button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #222;
-  border: 1px solid #444;
-  padding: 10px;
-  color: white;
-  border-radius: 8px;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  padding: 8px;
+  color: #fff;
+  border-radius: 6px;
   cursor: pointer;
-  transition: background 0.3s;
+  font-size: 13px;
+  transition: background 0.2s ease;
 }
 
 .item-grid button:hover {
-  background: #333;
+  background: #2c2c2c;
 }
 
 .item-grid img {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
-  margin-bottom: 8px;
-  border-radius: 8px;
+  margin-bottom: 5px;
+  border-radius: 6px;
 }
+
 
 #cart {
   flex: 1;
