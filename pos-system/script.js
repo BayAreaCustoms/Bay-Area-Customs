@@ -47,15 +47,18 @@ function loadItems() {
 
 
 function loadDepartments() {
-    let departmentSelect = document.getElementById('department');
+    const departmentSelect = document.getElementById('department');
+    if (!departmentSelect || !departments) return;
+
     departments.forEach(dept => {
-        let option = document.createElement('option');
+        const option = document.createElement('option');
         option.value = dept.name;
         option.textContent = dept.name;
         option.dataset.webhook = dept.webhook;
         departmentSelect.appendChild(option);
     });
 }
+
 
 
 function addToCart(item) {
