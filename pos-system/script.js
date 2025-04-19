@@ -16,19 +16,34 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function loadItems() {
   fetch('items.json')
-    .then(res => res.json())
+    .then(response => response.json())
     .then(data => {
       const itemsDiv = document.getElementById('items');
-      itemsDiv.innerHTML = '';
+      itemsDiv.innerHTML = "";
 
       data.forEach(item => {
         const btn = document.createElement('button');
-        btn.innerHTML = `<img src="${item.image}" alt="${item.name}" style="width:100%; border-radius:8px; margin-bottom:6px;">${item.name} - $${item.price}`;
+
+        const img = document.createElement('img');
+        img.src = item.image;
+        img.alt = item.name;
+
+        const name = document.createElement('span');
+        name.textContent = item.name;
+
+        const price = document.createElement('span');
+        price.textContent = `$${item.price.toFixed(2)}`;
+
+        btn.appendChild(img);
+        btn.appendChild(name);
+        btn.appendChild(price);
         btn.onclick = () => addToCart(item);
+
         itemsDiv.appendChild(btn);
       });
     });
 }
+
 
 function loadDepartments() {
   const select = document.getElementById('department');
