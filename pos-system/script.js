@@ -153,9 +153,11 @@ function copyOrder() {
 
 
 function submitOrder() {
-    const webhookURL = "https://ptb.discord.com/api/webhooks/1360469637028122710/3CKW10YRl16kDgIieIThBfkXVDXig0AzeiCWeBFyFMsofOzBen6HXhzGg_f996bZ0aBX";
-    const department = document.getElementById('department').value;
-    const name = document.getElementById('name').value;
+    const departmentSelect = document.getElementById('department');
+    const selectedOption = departmentSelect.options[departmentSelect.selectedIndex];
+    const webhookURL = selectedOption.dataset.webhook;
+
+    const name = document.getElementById('callsign').value;
 
     if (!name) {
         alert("Please enter a name.");
@@ -163,7 +165,7 @@ function submitOrder() {
     }
 
     let total = 0;
-    let orderText = `**Name:** ${name}\n**Department:** ${department}\n**Order:**\n`;
+    let orderText = `**Name:** ${name}\n**Department:** ${selectedOption.value}\n**Order:**\n`;
 
     cart.forEach(item => {
         let itemTotal = item.price * item.quantity;
@@ -172,7 +174,7 @@ function submitOrder() {
     });
 
     if (discountApplied) {
-        total *= 0.9; // Apply 10% discount
+        total *= 0.9;
         orderText += `\n**Discount Applied: 10%**`;
     }
 
@@ -182,12 +184,9 @@ function submitOrder() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ content: orderText })
-    }).then(() => alert("Order submitted to Discord!"))
-      .catch(err => {
-        console.error("Failed to send order: ", err);
-        alert("Failed to send order. Please try again.");
-    });
+    }).then(() => alert("Order submitted to Discord!"));
 }
+
 
 
 
