@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
     loadItems();
     loadDepartments();
 
+    document.getElementById('submit-order').addEventListener('click', submitOrder);
+
     // Add event listener for the discount button
     document.getElementById('apply-discount').addEventListener('click', () => {
         discountApplied = true;
@@ -159,11 +161,15 @@ function submitOrder() {
     const departmentSelect = document.getElementById('department');
     const selectedOption = departmentSelect.options[departmentSelect.selectedIndex];
     const webhookURL = selectedOption.dataset.webhook;
-
     const name = document.getElementById('callsign').value;
 
     if (!name) {
         alert("Please enter a name.");
+        return;
+    }
+
+    if (!webhookURL) {
+        alert("No webhook found for this department.");
         return;
     }
 
@@ -187,8 +193,20 @@ function submitOrder() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ content: orderText })
-    }).then(() => alert("Order submitted to Discord!"));
+    })
+    .then(res => {
+        if (res.ok) {
+            alert("Order submitted to Discord!");
+        } else {
+            alert("Failed to submit order. Check the webhook URL.");
+        }
+    })
+    .catch(err => {
+        console.error("Error submitting order:", err);
+        alert("Error submitting order. Check console for details.");
+    });
 }
+
 
 
 
