@@ -47,18 +47,16 @@ function loadItems() {
 
 
 function loadDepartments() {
-    fetch('departments.json')
-        .then(response => response.json())
-        .then(data => {
-            let departmentSelect = document.getElementById('department');
-            data.forEach(dept => {
-                let option = document.createElement('option');
-                option.value = dept;
-                option.textContent = dept;
-                departmentSelect.appendChild(option);
-            });
-        });
+    let departmentSelect = document.getElementById('department');
+    departments.forEach(dept => {
+        let option = document.createElement('option');
+        option.value = dept.name;
+        option.textContent = dept.name;
+        option.dataset.webhook = dept.webhook;
+        departmentSelect.appendChild(option);
+    });
 }
+
 
 function addToCart(item) {
     const existingItem = cart.find(cartItem => cartItem.id === item.id);
