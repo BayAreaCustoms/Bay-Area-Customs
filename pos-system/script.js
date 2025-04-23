@@ -49,7 +49,7 @@ function loadItems() {
 let departmentWebhooks = {}; // Store webhooks here
 
 function loadDepartments() {
-  fetch('departments.json')
+  fetch('departments.json?v=' + new Date().getTime())
     .then(response => response.json())
     .then(data => {
       let departmentSelect = document.getElementById('department');
