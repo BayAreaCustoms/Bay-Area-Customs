@@ -46,19 +46,25 @@ function loadItems() {
 }
 
 
+let departmentWebhooks = {}; // Store webhooks here
+
 function loadDepartments() {
-    fetch('departments.json')
-        .then(response => response.json())
-        .then(data => {
-            let departmentSelect = document.getElementById('department');
-            data.forEach(dept => {
-                let option = document.createElement('option');
-                option.value = dept;
-                option.textContent = dept;
-                departmentSelect.appendChild(option);
-            });
-        });
+  fetch('departments.json')
+    .then(response => response.json())
+    .then(data => {
+      let departmentSelect = document.getElementById('department');
+      departmentSelect.innerHTML = ""; // Clear existing
+
+      data.forEach(dept => {
+        departmentWebhooks[dept.name] = dept.webhook; // Save webhook
+        let option = document.createElement('option');
+        option.value = dept.name;
+        option.textContent = dept.name;
+        departmentSelect.appendChild(option);
+      });
+    });
 }
+
 
 function addToCart(item) {
     const existingItem = cart.find(cartItem => cartItem.id === item.id);
@@ -155,41 +161,43 @@ function copyOrder() {
 
 
 function submitOrder() {
-    const webhookURL = "https://ptb.discord.com/api/webhooks/1360469637028122710/3CKW10YRl16kDgIieIThBfkXVDXig0AzeiCWeBFyFMsofOzBen6HXhzGg_f996bZ0aBX";
     const department = document.getElementById('department').value;
-    const name = document.getElementById('name').value;
-
+    const name = document.getElementById('name').value.trim();
+  
     if (!name) {
-        alert("Please enter a name.");
-        return;
+      alert("Please enter a name.");
+      return;
     }
-
+  
+    const webhookURL = departmentWebhooks[department];
+    if (!webhookURL) {
+      alert("Webhook not found for selected department.");
+      return;
+    }
+  
     let total = 0;
     let orderText = `**Name:** ${name}\n**Department:** ${department}\n**Order:**\n`;
-
+  
     cart.forEach(item => {
-        let itemTotal = item.price * item.quantity;
-        orderText += `- ${item.name} ($${item.price.toFixed(2)}) x${item.quantity} = $${itemTotal.toFixed(2)}\n`;
-        total += itemTotal;
+      const itemTotal = item.price * item.quantity;
+      orderText += `- ${item.name} ($${item.price.toFixed(2)}) x${item.quantity} = $${itemTotal.toFixed(2)}\n`;
+      total += itemTotal;
     });
-
+  
     if (discountApplied) {
-        total *= 0.9; // Apply 10% discount
-        orderText += `\n**Discount Applied: 10%**`;
+      total *= 0.9;
+      orderText += `\n**Discount Applied: 10%**`;
     }
-
+  
     orderText += `\n**Total Cost: $${total.toFixed(2)}**`;
-
+  
     fetch(webhookURL, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ content: orderText })
-    }).then(() => alert("Order submitted to Discord!"))
-      .catch(err => {
-        console.error("Failed to send order: ", err);
-        alert("Failed to send order. Please try again.");
-    });
-}
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ content: orderText })
+    }).then(() => alert("Order submitted to Discord!"));
+  }
+  
 
 
 
