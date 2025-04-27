@@ -49,7 +49,7 @@ function loadItems() {
 let departmentWebhooks = {}; // Store webhooks here
 
 function loadDepartments() {
-  fetch('departments.json?v=' + new Date().getTime())
+  fetch('departments.json')
     .then(response => response.json())
     .then(data => {
       let departmentSelect = document.getElementById('department');
@@ -124,6 +124,7 @@ function updateCart() {
 }
 
 function copyOrder() {
+    const employee = document.getElementById('employee').value;
     const department = document.getElementById('department').value;
     const name = document.getElementById('name').value;
 
@@ -133,7 +134,7 @@ function copyOrder() {
     }
 
     let total = 0;
-    let orderText = `Name: ${name}\nDepartment: ${department}\nOrder:\n`;
+    let orderText = `Name: ${name}\nDepartment: ${department}\nEmployee: ${employee}\nOrder:\n`;
 
     cart.forEach(item => {
         let itemTotal = item.price * item.quantity;
@@ -161,6 +162,7 @@ function copyOrder() {
 
 
 function submitOrder() {
+    const employee = document.getElementById('employee').value;
     const department = document.getElementById('department').value;
     const name = document.getElementById('name').value.trim();
   
@@ -176,7 +178,7 @@ function submitOrder() {
     }
   
     let total = 0;
-    let orderText = `**Name:** ${name}\n**Department:** ${department}\n**Order:**\n`;
+    let orderText = `**Name:** ${name}\n**Department:** ${department}\n**Employee:** ${employee}\n**Order:**\n`;
   
     cart.forEach(item => {
       const itemTotal = item.price * item.quantity;
@@ -198,6 +200,18 @@ function submitOrder() {
     }).then(() => alert("Order submitted to Discord!"));
   }
   
+function clearCart() {
+    cart.length = 0;
+    discountApplied = false;
+    updateCart();
+}
+
+function removeDiscount() {
+    discountApplied = false; // Set discount back to off
+    updateCart(); // Refresh cart totals
+}
+
+
 
 
 
