@@ -16,6 +16,8 @@
 
         <h3>Cart</h3>
         <div id="cart">
+            <label for="employee">Employee Name:</label>
+            <input type="text" id="employee" placeholder="Enter employee name">
             <label for="name">Name:</label>
             <input type="text" id="name" placeholder="Enter your name">
 
@@ -28,6 +30,8 @@
             <button id="apply-discount">Apply 10% Discount</button>
             <button onclick="copyOrder()">Copy Order</button>
             <button onclick="submitOrder()">Submit Order</button>
+            <button onclick="clearCart()">Clear Cart</button>
+            <button onclick="removeDiscount()">Remove Discount</button>
         </div>
     </div>
     <select id="department"></select>
