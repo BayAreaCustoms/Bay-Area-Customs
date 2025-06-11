@@ -199,13 +199,7 @@
     },
     {
         "id": 36,
-        "name": "Ferrari F12 V12 Engine Swap",
-        "price": 115000,
-        "image": "images/CC8980HrY.png" 
-    },
-    {
-        "id": 37,
-        "name": "Lambo SV V12 Engine Swap",
+        "name": "Engine Swap",
         "price": 115000,
         "image": "images/CC8980HrY.png" 
     },
